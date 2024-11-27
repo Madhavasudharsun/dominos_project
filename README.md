@@ -25,8 +25,5 @@ Group sales by season and analyze how seasonal changes impact the total sales.
 Visualize the distribution of sales across seasons and discuss the presence or absence of strong seasonal patterns.
 Forecasting Models:
 
-ARIMA Model: Split the time-series data into training and testing sets, fit the ARIMA model, and forecast future sales. Evaluate model performance using the Mean Absolute Percentage Error (MAPE).
-SARIMA Model: Fit a SARIMA model to account for seasonality in the data, and forecast future sales with similar evaluation.
 Prophet Model: Use Facebook's Prophet for forecasting with time-series data. Split the data, fit the model, and predict future values.
-LSTM Model: Scale the data, prepare it for sequential modeling, and fit an LSTM neural network to forecast sales. (Provide a basic outline for building an LSTM using Keras.)
-After that taking into consideration of Arima calculated the ingredients for one week
+After that taking into consideration of Prophet model calculated the ingredients for one week and calculated total ingredients value
